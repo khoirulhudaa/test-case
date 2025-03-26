@@ -1,0 +1,58 @@
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-top: -20px;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  gap: 10px;
+}
+
+.container p {
+  font-weight: bold;
+  color: black;
+}
+
+.container-loading, .container-error {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-loading p {
+  color: black;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.btn-save {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+table th {
+  padding: 0 20px;
+}
