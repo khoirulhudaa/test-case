@@ -95,7 +95,7 @@ const App: React.FC = () => {
 
         <h1>Test Case - React + React-query</h1>
 
-        <table border={1} style={{borderRadius: '4px'}}>
+        <table border={1} style={{borderRadius: '4px', color: 'black'}}>
           <thead>
             <tr>
               <th>Nama barang</th>

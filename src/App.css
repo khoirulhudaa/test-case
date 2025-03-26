@@ -23,6 +23,14 @@ body {
   gap: 10px;
 }
 
+.container table {
+  color: black;
+}
+
+.container table td {
+  color: black;
+}
+
 .container p {
   font-weight: bold;
   color: black;
